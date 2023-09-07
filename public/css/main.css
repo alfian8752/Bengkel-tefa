@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 a {
     text-decoration: none;
 }
@@ -171,6 +175,7 @@ ul, li {
 
 .navbar {
     width: 100%;
+    min-height: 13%;
     padding: 5px 10px;
     box-sizing: border-box;
     background-color: #303030;
@@ -182,7 +187,7 @@ ul, li {
 }
 
 .title img {
-    width: 100px;
+    width: 10%;
     margin-left: 100px;
 }
 

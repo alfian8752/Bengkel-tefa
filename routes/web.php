@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TokoController;
 
@@ -23,3 +24,4 @@ Route::get('/', function () {
 Route::get('/toko', [TokoController::class, 'index'])->name('toko.index');
 Route::post('/toko', [TokoController::class, 'sort'])->name('toko.sort');
 Route::post('/login', function() {return view('login');});
+Route::get('/admin', [AdminController::class,'index'])->name('admin.index');

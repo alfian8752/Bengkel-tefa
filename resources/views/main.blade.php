@@ -10,7 +10,7 @@
     <title>{{ $title }}</title>
 </head>
 <body>
-    <div class="navbar d-flex flex-row space-between">
+    <div class="navbar d-flex flex-row space-between item-center">
         <div class="title">
             <img src="img/tefa-logo.jpg" alt="">
             {{-- <h1>Bengkel TEFA Kanesa</h1> --}}

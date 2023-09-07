@@ -1,0 +1,45 @@
+.navbar {
+  width: 100% !important;
+  height: 10% !important;
+  background-color: #303030;
+}
+
+.sidebar {
+  position: fixed;
+  height: 87%;
+  padding: 50px 0 0 0;
+  background-color: #303030;
+  color: white;
+  bottom: 0;
+  z-index: -1;
+}
+
+.sidebar a {
+  color: white;
+}
+
+.sidebar .link {
+  margin-top: 10%;
+  box-sizing: border-box;
+}
+
+.sidebar .link li, .sidebar .link li a {
+  display: block;
+  width: 98%;
+  box-sizing: border-box;
+}
+.sidebar li a {
+  padding: 20px;
+  /* border-bottom: 1px solid grey; */
+}
+.sidebar li:hover {
+  background-color: #555555;
+}
+
+
+.user {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30% 20% 30% 20%;
+}
