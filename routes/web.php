@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TokoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,5 @@ Route::get('/', function () {
         'title' => 'Beranda'
     ]);
 });
+
+Route::get('/toko', [TokoController::class, 'index'])->name('toko.index');

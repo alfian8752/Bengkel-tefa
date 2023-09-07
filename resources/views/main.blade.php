@@ -12,13 +12,12 @@
 <body>
     <div class="navbar d-flex flex-row space-between">
         <div class="title"><h1>Bengkel TEFA Kanesa</h1></div>
-        <div class="link">
+        <div class="link d-flex itam-center">
             <ul>
                 <li><a href="" class="nav-link">Beranda</a></li>
             </ul>
         </div>
     </div>
-    <div class="container"></div>
     @yield('body')
 </body>
 </html>
