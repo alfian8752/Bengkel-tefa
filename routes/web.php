@@ -21,3 +21,5 @@ Route::get('/', function () {
 });
 
 Route::get('/toko', [TokoController::class, 'index'])->name('toko.index');
+Route::post('/toko', [TokoController::class, 'sort'])->name('toko.sort');
+Route::post('/login', function() {return view('login');});

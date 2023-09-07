@@ -13,4 +13,8 @@ class TokoController extends Controller
             'dProduk' => Produk::all()
         ]);
     }
+
+    function sort(Request $request) {
+        dd($request);
+    }
 }

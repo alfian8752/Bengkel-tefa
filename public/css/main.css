@@ -18,11 +18,11 @@ ul, li {
     margin: 5px;
 }
 
-.margin-auto {
+.m-auto {
     margin: auto;
 }
 
-/* ==== Margin ==== */
+/* ==== Margin & Padding ==== */
 .m-1 {
     margin: 10px;
 }
@@ -69,6 +69,21 @@ ul, li {
     margin-bottom: 50px;
 }
 
+.p-1 {
+    padding: 10px;
+}
+.p-2 {
+    padding: 20px;
+}
+.p-3 {
+    padding: 30px;
+}
+.p-4 {
+    padding: 40px;
+}
+.p-5 {
+    padding: 50px;
+}
 
 
 
@@ -80,6 +95,7 @@ ul, li {
 }
 
 .flex-row {
+    display: flex;
     flex-direction: row;
 }
 
@@ -94,6 +110,12 @@ ul, li {
 .space-between {
     justify-content: space-between;
 }
+.space-evenly {
+    justify-content: space-evenly;
+}
+.space-around {
+    justify-content: space-around;
+}
 
 .item-center {
     align-items: center;
@@ -104,22 +126,43 @@ ul, li {
     grid-template-columns: repeat(5, auto);
 }
 
-.gap-1 {
-    gap: 10%;
-}
-.gap-2 {
-    gap: 20%;
-}
-.gap-3 {
-    gap: 30%;
-}
-.gap-4 {
-    gap: 40%;
-}
-.gap-5 {
-    gap: 50%;
+.grid  {
+    display: grid;
 }
 
+.gap-1 {
+    gap: 10px;
+}
+.gap-2 {
+    gap: 20px;
+}
+.gap-3 {
+    gap: 30px;
+}
+.gap-4 {
+    gap: 40px;
+}
+.gap-5 {
+    gap: 50px;
+}
+
+
+/* === width === */
+.w-10 {
+    width: 10%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-100 {
+    width: 100%;
+}
 
 
 
@@ -130,10 +173,19 @@ ul, li {
     width: 100%;
     padding: 5px 10px;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #303030;
     color: white;
 }
 
 .navbar a {
     color: white;
+}
+
+.title img {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.link {
+    min-width: 300px;
 }

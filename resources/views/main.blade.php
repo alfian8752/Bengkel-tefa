@@ -11,10 +11,15 @@
 </head>
 <body>
     <div class="navbar d-flex flex-row space-between">
-        <div class="title"><h1>Bengkel TEFA Kanesa</h1></div>
-        <div class="link d-flex itam-center">
-            <ul>
-                <li><a href="" class="nav-link">Beranda</a></li>
+        <div class="title">
+            <img src="img/tefa-logo.jpg" alt="">
+            {{-- <h1>Bengkel TEFA Kanesa</h1> --}}
+        </div>
+        <div class="link d-flex item-center">
+            <ul class=" d-flex flex-row item-center justify-content-center space-around w-100">
+                <li><a href="/" class="nav-link">Beranda</a></li>
+                <li><a href="/toko" class="nav-link">Toko</a></li>
+                <li><a href="/login" class="nav-link">Masuk</a></li>
             </ul>
         </div>
     </div>
